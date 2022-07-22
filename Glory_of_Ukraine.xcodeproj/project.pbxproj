@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43CD145E28887E9A00459BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD145D28887E9900459BEC /* AppDelegate.swift */; };
+		43CD146028887E9A00459BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD145F28887E9A00459BEC /* SceneDelegate.swift */; };
+		43CD146528887E9A00459BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CD146328887E9A00459BEC /* Main.storyboard */; };
+		43CD146728887E9D00459BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CD146628887E9D00459BEC /* Assets.xcassets */; };
+		43CD146A28887E9D00459BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CD146828887E9D00459BEC /* LaunchScreen.storyboard */; };
+		43CD147228887EFE00459BEC /* NetworkJsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD147128887EFE00459BEC /* NetworkJsonManager.swift */; };
+		43CD1474288884FF00459BEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD1473288884FF00459BEC /* Constants.swift */; };
+		43CD147A28888ED800459BEC /* DataJsonEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD147928888ED800459BEC /* DataJsonEquipment.swift */; };
+		43CD147C2888975300459BEC /* DataJsonPersonnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD147B2888975300459BEC /* DataJsonPersonnel.swift */; };
+		43CD148028897E9300459BEC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD147F28897E9300459BEC /* FirstViewController.swift */; };
+		43CD1482288980BB00459BEC /* ArrayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD1481288980BB00459BEC /* ArrayCell.swift */; };
+		43CD14842889CA7000459BEC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD14832889CA7000459BEC /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43CD145A28887E9900459BEC /* Glory_of_Ukraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glory_of_Ukraine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CD145D28887E9900459BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43CD145F28887E9A00459BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43CD146428887E9A00459BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43CD146628887E9D00459BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43CD146928887E9D00459BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43CD146B28887E9D00459BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CD147128887EFE00459BEC /* NetworkJsonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkJsonManager.swift; sourceTree = "<group>"; };
+		43CD1473288884FF00459BEC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		43CD147928888ED800459BEC /* DataJsonEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataJsonEquipment.swift; sourceTree = "<group>"; };
+		43CD147B2888975300459BEC /* DataJsonPersonnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataJsonPersonnel.swift; sourceTree = "<group>"; };
+		43CD147F28897E9300459BEC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		43CD1481288980BB00459BEC /* ArrayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayCell.swift; sourceTree = "<group>"; };
+		43CD14832889CA7000459BEC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43CD145728887E9900459BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43CD145128887E9900459BEC = {
+			isa = PBXGroup;
+			children = (
+				43CD145C28887E9900459BEC /* Glory_of_Ukraine */,
+				43CD145B28887E9900459BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43CD145B28887E9900459BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CD145A28887E9900459BEC /* Glory_of_Ukraine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43CD145C28887E9900459BEC /* Glory_of_Ukraine */ = {
+			isa = PBXGroup;
+			children = (
+				43CD1476288886FA00459BEC /* Models */,
+				43CD1475288886CD00459BEC /* Views */,
+				43CD14772888872000459BEC /* View Controllers */,
+				43CD14782888879200459BEC /* Supporting files */,
+			);
+			path = Glory_of_Ukraine;
+			sourceTree = "<group>";
+		};
+		43CD1475288886CD00459BEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43CD146328887E9A00459BEC /* Main.storyboard */,
+				43CD146828887E9D00459BEC /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43CD1476288886FA00459BEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43CD147128887EFE00459BEC /* NetworkJsonManager.swift */,
+				43CD147B2888975300459BEC /* DataJsonPersonnel.swift */,
+				43CD147928888ED800459BEC /* DataJsonEquipment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43CD14772888872000459BEC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43CD147F28897E9300459BEC /* FirstViewController.swift */,
+				43CD1481288980BB00459BEC /* ArrayCell.swift */,
+				43CD14832889CA7000459BEC /* DetailView.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		43CD14782888879200459BEC /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				43CD1473288884FF00459BEC /* Constants.swift */,
+				43CD145D28887E9900459BEC /* AppDelegate.swift */,
+				43CD145F28887E9A00459BEC /* SceneDelegate.swift */,
+				43CD146628887E9D00459BEC /* Assets.xcassets */,
+				43CD146B28887E9D00459BEC /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43CD145928887E9900459BEC /* Glory_of_Ukraine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CD146E28887E9D00459BEC /* Build configuration list for PBXNativeTarget "Glory_of_Ukraine" */;
+			buildPhases = (
+				43CD145628887E9900459BEC /* Sources */,
+				43CD145728887E9900459BEC /* Frameworks */,
+				43CD145828887E9900459BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glory_of_Ukraine;
+			productName = Glory_of_Ukraine;
+			productReference = 43CD145A28887E9900459BEC /* Glory_of_Ukraine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43CD145228887E9900459BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					43CD145928887E9900459BEC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 43CD145528887E9900459BEC /* Build configuration list for PBXProject "Glory_of_Ukraine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43CD145128887E9900459BEC;
+			productRefGroup = 43CD145B28887E9900459BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43CD145928887E9900459BEC /* Glory_of_Ukraine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43CD145828887E9900459BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD146A28887E9D00459BEC /* LaunchScreen.storyboard in Resources */,
+				43CD146728887E9D00459BEC /* Assets.xcassets in Resources */,
+				43CD146528887E9A00459BEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43CD145628887E9900459BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD1474288884FF00459BEC /* Constants.swift in Sources */,
+				43CD14842889CA7000459BEC /* DetailView.swift in Sources */,
+				43CD147228887EFE00459BEC /* NetworkJsonManager.swift in Sources */,
+				43CD148028897E9300459BEC /* FirstViewController.swift in Sources */,
+				43CD145E28887E9A00459BEC /* AppDelegate.swift in Sources */,
+				43CD146028887E9A00459BEC /* SceneDelegate.swift in Sources */,
+				43CD1482288980BB00459BEC /* ArrayCell.swift in Sources */,
+				43CD147A28888ED800459BEC /* DataJsonEquipment.swift in Sources */,
+				43CD147C2888975300459BEC /* DataJsonPersonnel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43CD146328887E9A00459BEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43CD146428887E9A00459BEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43CD146828887E9D00459BEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43CD146928887E9D00459BEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43CD146C28887E9D00459BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43CD146D28887E9D00459BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43CD146F28887E9D00459BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVP4FX84SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Glory_of_Ukraine/Supporting files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Serhii.Glory-of-Ukraine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43CD147028887E9D00459BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVP4FX84SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Glory_of_Ukraine/Supporting files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Serhii.Glory-of-Ukraine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43CD145528887E9900459BEC /* Build configuration list for PBXProject "Glory_of_Ukraine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CD146C28887E9D00459BEC /* Debug */,
+				43CD146D28887E9D00459BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43CD146E28887E9D00459BEC /* Build configuration list for PBXNativeTarget "Glory_of_Ukraine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CD146F28887E9D00459BEC /* Debug */,
+				43CD147028887E9D00459BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43CD145228887E9900459BEC /* Project object */;
+}
