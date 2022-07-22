@@ -18,7 +18,6 @@ class FirstViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         receiveArray()
     }
     

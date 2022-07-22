@@ -49,9 +49,7 @@ class DetailView: UIViewController {
     @IBAction func shareAction(_ sender: UIButton) {
         
         let shareController = UIActivityViewController(activityItems: [textField.text!], applicationActivities: nil)
-//        shareController.completionWithItemsHandler = {
-//            
-//        }
+
         present(shareController, animated: true, completion: nil)
         
     }
